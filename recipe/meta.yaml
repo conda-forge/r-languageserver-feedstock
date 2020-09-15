@@ -45,7 +45,7 @@ requirements:
     - r-xmlparsedata >=1.0.3
   run:
     - r-base
-    - {{native}}gcc-libs         # [win]
+    - {{ native }}gcc-libs         # [win]
     - r-r6 >=2.4.1
     - r-callr >=3.0.0
     - r-collections >=0.3.0
