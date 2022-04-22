@@ -21,6 +21,20 @@ build:
 
 requirements:
   build:
+    - cross-r-base {{ r_base }}  # [build_platform != target_platform]
+    - r-fs                       # [build_platform != target_platform]
+    - r-collections              # [build_platform != target_platform]
+    - r-stringi                  # [build_platform != target_platform]
+    - r-xmlparsedata             # [build_platform != target_platform]
+    - r-callr                    # [build_platform != target_platform]
+    - r-r6                       # [build_platform != target_platform]
+    - r-jsonlite                 # [build_platform != target_platform]
+    - r-lintr                    # [build_platform != target_platform]
+    - r-repr                     # [build_platform != target_platform]
+    - r-styler                   # [build_platform != target_platform]
+    - r-roxygen2                 # [build_platform != target_platform]
+    - r-xml2                     # [build_platform != target_platform]
+    - r-desc                     # [build_platform != target_platform]
     - {{ compiler('c') }}              # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ posix }}filesystem        # [win]
