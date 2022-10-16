@@ -1,4 +1,4 @@
-{% set version = "0.3.13" %}
+{% set version = "0.3.14" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/languageserver_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/languageserver/languageserver_{{ version }}.tar.gz
-  sha256: 2850246cba8340b68e27be1ec1273f6deae37c4f7538c56b3ea35a21563b5a78
+  sha256: 266fe5a074dfef7a61de2943d5ac7c4838149c66b695505c89c094776e30d460
 
 build:
   merge_build_host: true  # [win]
