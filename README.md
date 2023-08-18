@@ -3,6 +3,7 @@ About r-languageserver-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-languageserver-feedstock/blob/main/LICENSE.txt)
 
+
 About r-languageserver
 ----------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/REditorSupport/languageserver
 Package license: MIT
 
 Summary: An implementation of the Language Server Protocol for R. The Language Server protocol is used by an editor client to integrate features like auto completion. See <https://microsoft.github.io/language-server-protocol> for details.
+
 About r-languageserver
 ----------------------
 
