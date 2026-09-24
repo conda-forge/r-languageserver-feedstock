@@ -1,4 +1,4 @@
-{% set version = "0.3.19" %}
+{% set version = "0.3.20" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/languageserver_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/languageserver/languageserver_{{ version }}.tar.gz
-  sha256: d6410c6a3fd4baca81db29c446d0cf8ba4a40d3c53652bc379ff51801f6511e2
+  sha256: 80be3dc71a5219cfb98d930e9eac01c968aa2d151cd10bad7ce3ec198fa6d4a6
 
 build:
   number: 0
